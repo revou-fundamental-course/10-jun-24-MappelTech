@@ -1,0 +1,98 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1);
+    text-align: left;
+    width: 350px;
+    max-width: 90%;
+    border: 2px solid black;
+}
+
+h1{
+    margin-bottom: 15px;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    resize: none;
+    font-size: 16px;
+}
+
+p, h2, h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+p a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
